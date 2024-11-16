@@ -55,6 +55,7 @@ To run this project locally, follow the steps below.
 ### 1. Clone the repository
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/parzaech/flight-delay-predictor.git
+cd flight-delay-predictor
+
 
