@@ -57,7 +57,7 @@ To run this project locally, follow the steps below.
 ```bash
 git clone https://github.com/parzaech/flight-delay-predictor.git
 cd flight-delay-predictor
-
+```
 ## Model Evaluation (Gradient Boosting Classifier)
 
 The model was evaluated using the **Gradient Boosting Classifier** on the dataset. Here are the performance metrics:
