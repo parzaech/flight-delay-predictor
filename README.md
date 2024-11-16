@@ -58,4 +58,24 @@ To run this project locally, follow the steps below.
 git clone https://github.com/parzaech/flight-delay-predictor.git
 cd flight-delay-predictor
 
+## Model Evaluation (Gradient Boosting Classifier)
+
+The model was evaluated using the **Gradient Boosting Classifier** on the dataset. Here are the performance metrics:
+
+- **Accuracy**: 0.623
+- **Precision**: 
+  - Non-delayed flights (0): 0.65
+  - Delayed flights (1): 0.59
+- **Recall**: 
+  - Non-delayed flights (0): 0.71
+  - Delayed flights (1): 0.51
+- **F1-Score**: 
+  - Non-delayed flights (0): 0.68
+  - Delayed flights (1): 0.55
+- **Support**: 
+  - Non-delayed flights (0): 59,824
+  - Delayed flights (1): 48,053
+
+The **Gradient Boosting Classifier** performed well, with the highest recall for non-delayed flights, but there is room for improvement in predicting delayed flights.
+
 
